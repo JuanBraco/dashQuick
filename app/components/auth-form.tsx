@@ -13,7 +13,7 @@ export default function AuthForm() {
       appearance={{ theme: ThemeSupa }}
       theme="dark"
       showLinks={false}
-      providers={['github', 'google']}
+      providers={['twitter']}
       redirectTo="http://localhost:3000/auth/callback"
     />
   )
