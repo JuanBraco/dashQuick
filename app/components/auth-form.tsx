@@ -14,7 +14,7 @@ export default function AuthForm() {
       theme="dark"
       showLinks={false}
       providers={['twitter']}
-      redirectTo="http://localhost:3000/auth/callback"
+      redirectTo="/https://elothr.vercel.app/auth/callback"
     />
   )
 }
